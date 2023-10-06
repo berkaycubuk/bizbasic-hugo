@@ -1,0 +1,5 @@
+[params.services]
+	[[params.services.service]]
+		name = 'Digital Transformation'
+		icon = 'digital-transformation.svg'
+		url = '/services/digital-transformation'

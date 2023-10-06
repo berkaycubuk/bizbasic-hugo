@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+	{{ partial "hero.html" . }}
+
+	<div class="content">
+	{{ .Content }}
+	</div>
+
+	{{ partial "contact-us.html" . }}
+	
+{{ end }}

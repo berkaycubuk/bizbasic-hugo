@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.content {
+	@apply mt-[100px];
+}
+
+.content h2 {
+	@apply text-[28px] font-bold mt-[40px];
+}
+
+.content h3 {
+	@apply text-[24px] font-bold mt-[36px];
+}
+
+.content p {
+	@apply mt-[16px] text-gray text-[18px] leading-[34px];
+}

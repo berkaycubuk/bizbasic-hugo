@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+	{{ partial "hero.html" . }}
+
+	<div class="content">
+            {{ .Content }}
+	</div>
+
+        <ul class="grid grid-cols-2 gap-[20px] mt-[16px]">
+            {{ range .Pages }}
+
+		<a class="bg-dark-gray hover:opacity-60 rounded-[8px] p-[20px] flex items-center gap-[16px]" href="{{ .Permalink }}">
+                    {{ if isset .Params "icon" }}
+                    <img src="/img/{{ .Params.icon }}" />
+                    {{ end }}
+                    <div class="font-medium text-[24px]">{{ .Title }}</div>
+		</a>
+
+            {{ end }}
+        </ul>
+	
+{{ end }}

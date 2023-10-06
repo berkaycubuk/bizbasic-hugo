@@ -1,0 +1,12 @@
+<div class="grid grid-cols-2 gap-[20px] mt-[16px]">
+
+	{{ range .Site.Params.services.service }}
+
+		<a class="bg-dark-gray hover:opacity-60 rounded-[8px] p-[20px] flex items-center gap-[16px]" href="{{ .url }}">
+			<img src="/img/{{ .icon }}" />
+			<div class="font-medium text-[24px]">{{ .name }}</div>
+		</a>
+
+	{{ end }}
+
+</div>

@@ -1,0 +1,19 @@
+{
+  "name": "testy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss build assets/css/styles.css -o static/css/styles.css",
+    "watch": "npx tailwindcss build assets/css/styles.css -o static/css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "Berkay Çubuk",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3"
+  }
+}
