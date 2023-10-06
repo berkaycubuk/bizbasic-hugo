@@ -1,14 +1,14 @@
 {
-  "name": "testy",
+  "name": "bizbasic",
   "version": "1.0.0",
-  "description": "",
+  "description": "BizBasic is a Hugo theme built with TailwindCSS. It’s not revolutiniary but simple and responsive.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tailwindcss build assets/css/styles.css -o static/css/styles.css",
     "watch": "npx tailwindcss build assets/css/styles.css -o static/css/styles.css --watch"
   },
-  "keywords": [],
+  "keywords": ["landing page", "tailwind", "hugo", "hugo-theme"],
   "author": "Berkay Çubuk",
   "license": "ISC",
   "devDependencies": {

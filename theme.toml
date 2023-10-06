@@ -1,15 +1,12 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/gohugoio/hugoThemes#themetoml for an example
-
-name = "Testy"
+name = "BizBasic"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
-tags = ["landing page", "clean", "tailwind"]
-features = ["tailwind", "business"]
+licenselink = "https://github.com/berkaycubuk/bizbasic-hugo/blob/master/LICENSE"
+description = "BizBasic is a Hugo theme built with TailwindCSS. It’s not revolutiniary but simple and responsive."
+homepage = "https://bizmovo.com/product/bizbasic-hugo-theme/"
+tags = ["landing page", "simple", "tailwind"]
+features = ["tailwind", "simple"]
 min_version = "0.112.3"
 
 [author]
-  name = "Berkay"
-  homepage = ""
+  name = "Berkay Çubuk"
+  homepage = "https://berkaycubuk.com"
